@@ -4,7 +4,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="1"
-    android:background="@drawable/bg_login"
+    android:background="@color/colorPrimary"
     tools:context=".SignupActivity">
 
     <ScrollView
@@ -105,6 +105,8 @@
             android:layout_marginBottom="8dp">
 
             <EditText
+                android:phoneNumber="true"
+                android:numeric="integer"
                 android:id="@+id/signup_tele"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -169,6 +171,21 @@
                 android:hint="Security Answer"/>
 
         </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="I agree to the Terms and Licence."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
 
         <!-- Signup Button -->
         <android.support.v7.widget.AppCompatButton

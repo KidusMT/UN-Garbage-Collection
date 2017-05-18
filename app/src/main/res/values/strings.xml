@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">UN-Garbage Collection</string>
+    <string name="app_name">Waste254</string>
+    <string name="un_moto">It takes a little effort on your part to being clean and green</string>
+    <string name="un_moto2">Waste it once... Pay for it twice!</string>
 
     <string name="next">NEXT</string>
     <string name="skip">SKIP</string>
